@@ -1,0 +1,75 @@
+body {
+  background-image: url("leather-texture.png");
+  color: rgb(197, 178, 12);
+  font-family: "Courier New", monospace;
+  text-align: center;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+}
+
+.timer {
+  font-size: 10vw;
+  font-weight: bold;
+  display: flex;
+  gap: 1vw;
+}
+
+.digit {
+  text-align: center;
+}
+
+.label {
+  font-size: 1.5vw;
+  display: block;
+  margin-top: -1vw;
+}
+
+.buttons {
+  margin-top: 50px;
+  align-items: center;
+}
+
+button {
+  font-size: 1.5vw;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  padding: 1vw;
+  border: 2px solid rgb(197, 178, 12);
+  background: transparent;
+  color: rgb(197, 178, 12);
+  cursor: pointer;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(234, 234, 15);
+  color: rgb(19, 19, 19);
+  box-shadow: 0 0 20px rgb(234, 234, 15);
+  transform: scale(1.1);
+}
+
+.laps-container {
+  display: none;
+  max-height: 20vh;
+  overflow-y: auto;
+  margin-top: 2vw;
+  border: 1px solid rgb(219, 219, 20);
+  padding: 1vw;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.laps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
